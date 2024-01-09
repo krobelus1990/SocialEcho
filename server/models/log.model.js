@@ -15,6 +15,7 @@ const LogSchema = new mongoose.Schema({
 
   level: { type: String, required: true },
 
+  
   timestamp: {
     type: Date,
     required: true,
